@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body{
     padding: 0;
@@ -151,7 +152,7 @@ body{
 
 .info__card .card::after {
     content: '';
-    border: 2px solid rgba(230, 242, 255, 0.26);
+    border: 2px solid rgba(200, 242, 255, 0.26);
     border-left: none;
     position: absolute;
     bottom: 0;
@@ -202,4 +203,21 @@ body{
 
 .card__footer .card__footer-info p:first-child {
     margin-bottom: 8px;
+}
+
+.card__footer .card__footer-date{
+    position: absolute;
+    width: 47px;
+    height: 18px;
+    left: 403px;
+    top: 252px;
+
+
+
+    color: #ffffff;
+    font-family: Lato;
+    line-height: 18px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 5%;
 }
