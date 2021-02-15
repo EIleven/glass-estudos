@@ -7,6 +7,12 @@ body{
     margin: 0;
     height: 100vh;
     background: linear-gradient(to right, #55439E, #952FFF);
+
+    perspective: 1000px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container{
